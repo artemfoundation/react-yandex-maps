@@ -6,7 +6,11 @@ export { default as Map } from './Map';
 
 export { default as Clusterer } from './geo-objects/Clusterer';
 
-export { default as ObjectManager } from './geo-objects/ObjectManager';
+export {
+  ObjectManager,
+  LoadingObjectManager,
+  RemoteObjectManager,
+} from './geo-objects/ObjectManager';
 
 export {
   GeoObject,
