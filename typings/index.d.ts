@@ -196,6 +196,7 @@ export const Map: React.ComponentType<MapProps>;
 export const ObjectManager: React.ComponentType<ObjectManagerProps>;
 export const Clusterer: React.ComponentType<ClustererProps>;
 export const Panorama: React.ComponentType<PanoramaProps>;
+export const MultiRoute: React.ComponentType;
 
 //
 // Geo Objects components
